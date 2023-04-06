@@ -1,0 +1,155 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+*,
+::after,
+::before {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html {
+    font-size: 100%;
+}
+
+:root {
+    /* colors */
+    --darkcyan: hsl(158, 36%, 37%);
+    --cream: hsl(30, 38%, 92%);
+    --verydarkblue: hsl(212, 21%, 14%);
+    --darkgrayblue: hsl(228, 12%, 48%);
+    --white: hsl(0, 0%, 100%);
+    
+    --borderRadius: 1.5rem;
+    --imageborderRadius: 0.5rem;
+
+    /* font */
+    --bodyfont: 'Montserrat', sans-serif;
+}
+
+body {
+    background: var(--white);
+    font-family: var(--bodyfont);
+    font-weight: 500;
+}
+p {
+    font-size: 0.875rem;
+}
+.img { 
+    width: 100%;
+    display: block;
+    object-fit: cover;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
+
+.cart-img {
+    margin-right: 0.5rem;
+}
+/* 
+==============================================
+Product Preview Code
+=============================================
+*/
+
+.card-container {
+    min-height: 100vh;;
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   
+}
+
+.card {
+    background: var(--cream);
+    max-width: 365px;
+    width: 90%;
+    padding: 1.5rem 0.75rem;
+    text-align: left;
+}
+
+.card-img {
+    border-top-right-radius: var(--imageborderRadius);
+    border-top-left-radius: var(--imageborderRadius);
+    margin-bottom: 0.5rem;
+}
+
+.card-details {
+    background: var(--white);
+    border-top-right-radius: var(--imageborderRadius);
+    border-top-left-radius: var(--imageborderRadius);
+}
+
+.card-info {
+    padding: 1rem 1.25rem
+}
+
+.card-info h5 {
+    letter-spacing: 3px;
+    font-weight: 400;
+    font-size: 0.6rem;
+    color: var(--darkgrayblue);
+    margin-bottom: 0.75rem;
+}
+
+.card-info h2 {
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+    padding: 0 0.25rem;
+}
+
+.card-info p {
+    color: var(--darkgrayblue);
+    font-size: 0.75rem;
+    margin-bottom: 1rem;
+    padding: 0 0.45rem;
+    line-height: 1.5;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+p.price-text {
+    color:var(--darkcyan);
+    font-family: 'Fraunces', sans-serif;
+    font-weight: 700;
+    font-size: 1.75rem;
+}
+p.old-price-text {
+    text-decoration: line-through;
+    
+}
+
+
+.product-btn {
+    width: 100%;
+    background-color: var(--darkcyan);
+    color: var(--white);
+    border-radius: var(--imageborderRadius);
+    padding: 0.75rem;
+    border: transparent;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+}
+
+.product-btn span{
+    display: block;
+    font-weight: 700;
+    font-size: 0.7rem;
+}
