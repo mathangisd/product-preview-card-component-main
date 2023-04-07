@@ -19,11 +19,18 @@
     <div class="card-container">
       <article class="card">
         <div class="card-details">
-          <img
-            src="./images/image-product-mobile.jpg"
-            alt="Gabrielle CHANEL"
-            class="img card-img"
-          />
+          <picture>
+            <source
+              srcset="./images/image-product-desktop.jpg"
+              media="(min-width: 1000px)"
+            />
+
+            <img
+              src="./images/image-product-mobile.jpg"
+              alt="Gabrielle CHANEL"
+              class="img card-img"
+            />
+          </picture>
           <div class="card-info">
             <h5>PERFUME</h5>
             <h2>Gabrielle Essence Eau De Parfum</h2>
@@ -36,8 +43,12 @@
               <p class="old-price-text">$169.99</p>
             </div>
             <button class="product-btn">
-              <img src="./images/icon-cart.svg" alt="cart symbol" />
-              Add to Cart
+              <img
+                src="./images/icon-cart.svg"
+                class="cart-img"
+                alt="cart symbol"
+              />
+              <span>Add to Cart</span>
             </button>
           </div>
         </div>
