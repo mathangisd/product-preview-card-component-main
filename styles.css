@@ -46,12 +46,11 @@ p {
     font-size: 11px;
     text-align: center;
     margin-bottom: 0.5rem;
+    margin-top: 1rem;
 }
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-
-
 
 .card-img {
     margin-right: 0.5rem;
@@ -129,11 +128,11 @@ p.price-text {
     font-weight: 700;
     font-size: 1.75rem;
 }
+
 p.old-price-text {
     text-decoration: line-through;
     
 }
-
 
 .product-btn {
     width: 100%;
@@ -172,23 +171,35 @@ Media Query
         width: 500px;
     }
 
+    .card {
+        max-width: 500px;
+    }
+
     .img {
         border-radius: 0;
     }
+
     .card-container {
         background: var(--cream);
     }
+
     .card-info {
         width: 550px;
     }
+
     .card-img {
         margin-bottom: 0;
     }
+    
     .product-btn {
         margin-top: 0.5rem;
     }
+
     .price {
         margin-top: 2rem;
     }
     
+    .attribution {
+         width: 500px;
+    }
 }
