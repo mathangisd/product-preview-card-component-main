@@ -181,6 +181,9 @@ Media Query
     .card-info {
         width: 550px;
     }
+    .card-img {
+        margin-bottom: 0;
+    }
     .product-btn {
         margin-top: 0.5rem;
     }
