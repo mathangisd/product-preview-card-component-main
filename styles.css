@@ -186,8 +186,13 @@ Media Query
         width: 550px;
     }
 
+    .card-details {
+         border-bottom-left-radius: var(--imageborderRadius);
+    }
     .card-img {
         margin-bottom: 0;
+        border-top-left-radius: var(--imageborderRadius);
+        border-bottom-left-radius: var(--imageborderRadius);
     }
     
     .product-btn {
