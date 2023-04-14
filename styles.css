@@ -17,6 +17,7 @@ html {
 :root {
     /* colors */
     --darkcyan: hsl(158, 36%, 37%);
+    --verydarkcyan:hsl(158, 53%, 18%);
     --cream: hsl(30, 38%, 92%);
     --verydarkblue: hsl(212, 21%, 14%);
     --darkgrayblue: hsl(228, 12%, 48%);
@@ -150,15 +151,14 @@ p.old-price-text {
 }
  
 .product-btn:hover{
-    background: var(--verydarkblue);
+    background: var(--verydarkcyan);
     cursor: pointer;
   }
 
+
 .product-btn:focus {
-    outline-style: solid;
-    outline-color: transparent;
-    box-shadow: 0 0 0 4px var(--darkgrayblue);;
-    background: var(--verydarkblue );
+    outline: 2px solid transparent;
+    background: var(--verydarkcyan );
 }
 
 .product-btn span{
