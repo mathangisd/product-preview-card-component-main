@@ -22,11 +22,13 @@ html {
     --darkgrayblue: hsl(228, 12%, 48%);
     --white: hsl(0, 0%, 100%);
     
-    --borderRadius: 1.5rem;
-    --imageborderRadius: 0.5rem;
+    --borderRadius: 0.5rem;
 
     /* font */
     --bodyfont: 'Montserrat', sans-serif;
+    --headingfont:'Fraunces', serif;
+
+    --transition: all 0.3s linear;
 }
 
 body {
@@ -78,15 +80,15 @@ Product Preview Code
 }
 
 .card-img {
-    border-top-right-radius: var(--imageborderRadius);
-    border-top-left-radius: var(--imageborderRadius);
+    border-top-right-radius: var(--borderRadius);
+    border-top-left-radius: var(--borderRadius);
     margin-bottom: 0.5rem;
 }
 
 .card-details {
     background: var(--white);
-    border-top-right-radius: var(--imageborderRadius);
-    border-top-left-radius: var(--imageborderRadius);
+    border-top-right-radius: var(--borderRadius);
+    border-top-left-radius: var(--borderRadius);
 }
 
 .card-info {
@@ -102,7 +104,7 @@ Product Preview Code
 }
 
 .card-info h2 {
-    font-family: 'Fraunces', sans-serif;
+    font-family: var(--headingfont);
     font-weight: 700;
     margin-bottom: 0.75rem;
     padding: 0 0.25rem;
@@ -137,19 +139,28 @@ p.old-price-text {
     width: 100%;
     background-color: var(--darkcyan);
     color: var(--white);
-    border-radius: var(--imageborderRadius);
+    border-radius: var(--borderRadius);
     padding: 0.75rem;
     border: transparent;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     display: flex;
     justify-content: center;
+    transition: var(--transition);
 }
-
-.product-btn:hover {
+ 
+.product-btn:hover{
     background: var(--verydarkblue);
     cursor: pointer;
+  }
+
+.product-btn:focus {
+    outline-style: solid;
+    outline-color: transparent;
+    box-shadow: 0 0 0 4px var(--darkgrayblue);;
+    background: var(--verydarkblue );
 }
+
 .product-btn span{
     display: block;
     font-weight: 700;
@@ -187,13 +198,13 @@ Media Query
     }
 
     .card-details {
-         border-bottom-left-radius: var(--imageborderRadius);
-         border-bottom-right-radius: var(--imageborderRadius);
+         border-bottom-left-radius: var(--borderRadius);
+         border-bottom-right-radius: var(--borderRadius);
     }
     .card-img {
         margin-bottom: 0;
-        border-top-left-radius: var(--imageborderRadius);
-        border-bottom-left-radius: var(--imageborderRadius);
+        border-top-left-radius: var(--borderRadius);
+        border-bottom-left-radius: var(--borderRadius);
     }
     
     .product-btn {
