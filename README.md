@@ -39,8 +39,8 @@ Users should be able to:
 # 
 ### Links
 
-- Solution URL : https://github.com/mathangisd/product-preview-card-component-main.git
-- Live URL : [Product Preview Card Component](https://product-preview-card-msd.netlify.app/)
+- Solution URL : [Product Preview Card Code](https://github.com/mathangisd/product-preview-card-component-main.git)
+- Live URL : [Product Preview Card Component on Netlify](https://product-preview-card-msd.netlify.app/)
 
 
 ## My process
@@ -62,7 +62,7 @@ I would like to keep working on other projects that involve different responsive
 
 ### Useful resources
 
-- [HTML and CSS course](https://www.youtube.com/watch?v=-8ORfgUa8ow&list=PLnHJACx3NwAdT_8forzXYvx0o4A2VnoHX) - by amazing instructor [John Smilga](https://johnsmilga.com/) - This course helped me understand many basics of HTML and CSS.
+- [HTML and CSS course](https://www.youtube.com/watch?v=-8ORfgUa8ow&list=PLnHJACx3NwAdT_8forzXYvx0o4A2VnoHX) - by amazing instructor [John Smilga](https://johnsmilga.com/) - This course helped me understand many basics and advanced concepts of HTML and CSS.
 
 - [CSS Button style Hover and Focus](https://www.freecodecamp.org/news/css-button-style-hover-color-and-background/) - by Dionysia Lemonaki - This article explains button styles for different states.
 
