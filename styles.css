@@ -64,7 +64,7 @@ Product Preview Code
 */
 
 .card-container {
-    min-height: 100vh;;
+    min-height: 100vh;
     display: grid;
     justify-content: center;
     justify-items: center;
